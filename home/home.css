@@ -1,0 +1,54 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+#barra{
+    width: 100%;
+    height: 36px;
+    display: block;
+    background-color: #db0000;
+    text-align: center;
+}
+#campo{
+    width: 100%; 
+    height: 200px;
+    display: block;
+}
+
+/*BANNER*/
+.option{
+    display: inline-block;
+    border-right-style: solid;
+    border-right-color: #ff0000;
+    border-right-width: thin;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 0;
+}
+.lastoption{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Carrois Gothic', sans-serif;
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 0;
+}
+.option:hover{
+    cursor: pointer;
+    background-color: #b60000;
+}
+.lastoption:hover{
+    cursor: pointer;
+    background-color: #b60000;
+}
+

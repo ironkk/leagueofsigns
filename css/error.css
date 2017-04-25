@@ -1,0 +1,47 @@
+<!-- arreglar y adaptar a nuestros colores y tipologias de letra-->
+
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Times New Roman', Georgia, Serif;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    min-width: 706px;
+}
+#centro{
+    color: white;
+    opacity: 0.8;
+    width: 40%;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 20%;
+}
+
+p{
+    display: inline-block;
+    width: 500px;
+    text-align: right;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 6%;
+
+}
+
+a{
+    color: white;
+    position: relative;
+    left: -25%;
+    bottom: -10%;
+    cursor: pointer;
+
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
